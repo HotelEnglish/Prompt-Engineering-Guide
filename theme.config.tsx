@@ -61,9 +61,16 @@ const config: DocsThemeConfig = {
     link: 'https://discord.gg/FUyz9vPAwf',
   },
   docsRepositoryBase: 'https://github.com/dair-ai/Prompt-Engineering-Guide/tree/main/',
-  footer: {
-    text: 'Copyright © 2024 DAIR.AI ' <a href="https://beian.miit.gov.cn/" target="_blank">琼ICP备19001286号-5</a>,
-  },
+footer: {
+  text: (
+    <>
+      Copyright © 2024 DAIR.AI{' '}
+      <a href="https://beian.miit.gov.cn/" target="_blank">
+        琼ICP备19001286号-5
+      </a>
+    </>
+  ),
+},
   search: {
     placeholder: 'Search...',
   },
