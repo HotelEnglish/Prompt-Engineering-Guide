@@ -64,7 +64,7 @@ const config: DocsThemeConfig = {
 footer: {
   text: (
     <>
-      Copyright © 2024 DAIR.AI{' '}
+      Copyright © 2024 DAIR.AI {' '}
       <a href="https://beian.miit.gov.cn/" target="_blank">
         琼ICP备19001286号-5
       </a>
